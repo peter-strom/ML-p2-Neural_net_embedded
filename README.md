@@ -25,20 +25,21 @@ Fig.2 - Four input signals - Our best predictions using ReLU.
 A neural network is a collection of nodes/neurons connected to each other in layers. Minimum is three layers, one input, one hidden layer and one output layer. Each node has their own bias(m) value. The connections between each node have a weight(k) value. To train a neural network you also need training data, input(x) and output(y). With these you have the formula (y = kx + m) which gives the output for each node in feedforward.
 When training a neural network there are three stages, feedforward, backpropagation and optimization.
 
-###Feedforward. (input layer -> output layer) 
+### Feedforward. (input layer -> output layer) 
 Feedforward calculates the new output values for each node by adding the bias(m) value, the input and the weight for each input connection, see Fig.3. 
 >y = m + (k1 * x1) + (k2 * x2) + ...
 	      
-###Backpropagation. (input layer <- output layer) 
+### Backpropagation. (input layer <- output layer) 
 After feedforward for all layers are done you get an y-prediction from the output node. With this you calculate the deviation/error for each node. For the output layer you compare the y-prediction to the y-reference from the training data from the training data, see Fig.4. 
 >error = y reference - y prediction 
 
 For the hidden nodes you take the error value and the weight from the previous calculated layer. For example, the to calculate the last hidden layer you take the weight(k) and error from the output nodes, see Fig.5. 
 >error = error1(next_layer) * k1(next_layer) + error2(next_layer) * k2(next_layer) + …
 
-###Optimization. 
+### Optimization. 
 The last step is to adjust all the nodes by calculating new weight(k) and bias(m) values. The new bias(m) value for each node by adding the old bias value with the error times learning rate you want, see Fig.6. 
->m(new) = m(old) + error * LR 
+>m(new) = m(old) + error * LR
+
 All new weights are calculated by adding the old weight(k) with the error, learng_rate and the input signal(x). For example: to optimize a new weight in the output layer, you take the old weight(k) + the error value for the output layer node * learning rate * the input(x), see Fig.6. 
 >k(new) = k(old) + error * LR * x.
 
