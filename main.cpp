@@ -50,9 +50,9 @@ int main(void)
     char filename[] = "training_data.txt";
     read_file(train_x_in, train_yref_out, filename);
 
-    Neural_network numbrONE(4, 4, 8, 1, activation_option::TANH);
+    Neural_network numbrONE(4, 0, 0, 1, activation_option::TANH);
     numbrONE.print_network();
-    numbrONE.add_hidden_layers(2, 2, activation_option::TANH);
+    //numbrONE.add_hidden_layers(2, 2, activation_option::TANH);
     numbrONE.print_network();
     numbrONE.set_training_data(train_x_in, train_yref_out);
     numbrONE.train(6000, 0.03);
