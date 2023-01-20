@@ -22,13 +22,11 @@ To solve our issue, we had to change the activation function from ReLU to Tanh. 
 
 ![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/4df7a1c26fd78acbf8bc1d4e7d95d58fd228faa2/img/fig1.pngfig1.png)
 
-Fig.1 - Three input signals - Our machine running ReLU activation worked great. 
-
+Fig.1 - Three input signals - Worked great when our machine running ReLU activation with different settings. 
 
 ![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/4df7a1c26fd78acbf8bc1d4e7d95d58fd228faa2/img/fig1.pngfig2.png)
 
 Fig.2 - Four input signals - Our best predictions using ReLU. 
-
 
 ![alt text](https://github.com/peter-strom/MQTT-cpp/blob/master/bild3.png)
 
