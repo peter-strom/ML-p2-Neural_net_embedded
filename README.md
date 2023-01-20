@@ -18,7 +18,7 @@ To solve our issue, we had to change the activation function from ReLU to Tanh. 
 
 Fig.1 - Three input signals - Worked great when our machine running ReLU activation with different settings. 
 
-![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/4df7a1c26fd78acbf8bc1d4e7d95d58fd228faa2/img/fig2.png)
+![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/3613ae104815c9729222e099af963688991a007f/img/fig2.png)
 
 Fig.2 - Four input signals - Our best predictions using ReLU. 
 
@@ -45,19 +45,19 @@ For example, to optimize the output you take the old weight(k) + the error value
 And repeat!
 
 
-![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/8482b82bb233aa5b2351773be9930af1d9719fe4/img/fig3.png)
+![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/3613ae104815c9729222e099af963688991a007f/img/fig3.png)
 
 Fig.3 - Feed forward.
 
-![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/8482b82bb233aa5b2351773be9930af1d9719fe4/img/fig4.png)
+![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/3613ae104815c9729222e099af963688991a007f/img/fig4.png)
 
 Fig.4 - Backpropagation (output layer).
 
-![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/8482b82bb233aa5b2351773be9930af1d9719fe4/img/fig5.png)
+![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/3613ae104815c9729222e099af963688991a007f/img/fig5.png)
 
 Fig.5 - Backpropagation (hidden layer).
 
-![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/8482b82bb233aa5b2351773be9930af1d9719fe4/img/fig6.png)
+![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/3613ae104815c9729222e099af963688991a007f/img/fig6.png)
 
 Fig.6 - Optimizeation (gradient descent).
 
