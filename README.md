@@ -6,14 +6,8 @@ By: Daniel Mentzer och Peter Strömblad
             
 ## Neuralt nätverk i ett inbyggt system (A neural network in an embedded system) 
 
-
-
 ## Introduction
 In this project an artificial neural network was to be created with the purpose to sense the input signals of four buttons. In the other end of the neural network an LED was connected. If an even number of buttons was pressed the output signal should be 0/low otherwise the output should be 1/high and turn on an LED. The neural network was designed to work with nay number of nodes and hidden layers.  The program is running on a raspberry pi 4 with the gpiod library to manage the LED and buttons.
-
-
-
-
 
 ## Discussion
 
@@ -26,14 +20,14 @@ To solve our issue, we had to change the activation function from ReLU to Tanh. 
 
 
 
-![alt text](https://github.com/peter-strom/rp_neural_network/blob/79120f8e67cc45bbf3da65b98d9f7b271186022d/img/fig1.png)
+![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/4df7a1c26fd78acbf8bc1d4e7d95d58fd228faa2/img/fig1.pngfig1.png)
 
-Fig.1 - Our machine running ReLU activation worked great with trhee input signals. 
+Fig.1 - Three input signals - Our machine running ReLU activation worked great. 
 
 
-![alt text](https://github.com/peter-strom/rp_neural_network/blob/79120f8e67cc45bbf3da65b98d9f7b271186022d/img/fig2.png)
+![alt text](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/4df7a1c26fd78acbf8bc1d4e7d95d58fd228faa2/img/fig1.pngfig2.png)
 
-Fig.2 - xxxxx. 
+Fig.2 - Four input signals - Our best predictions using ReLU. 
 
 
 ![alt text](https://github.com/peter-strom/MQTT-cpp/blob/master/bild3.png)
@@ -43,6 +37,6 @@ Fig.3 - xxxxx.
 
 
 
-[![Watch the video](https://github.com/peter-strom/rp_neural_network/blob/79120f8e67cc45bbf3da65b98d9f7b271186022d/img/youtube.png)](https://youtu.be/20bjsbjJasY)
+[![Watch the video](https://github.com/peter-strom/ML-p2-Neural_net_embedded/blob/4df7a1c26fd78acbf8bc1d4e7d95d58fd228faa2/img/fig1.pngyoutube.png)](https://youtu.be/20bjsbjJasY)
 
 Movie.1 - Video of the neural net in action.
