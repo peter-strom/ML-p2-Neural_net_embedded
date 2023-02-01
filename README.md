@@ -2,7 +2,7 @@
 
 Supervisor: Erik Pihl 
 
-By: Daniel Mentzer och Peter Strömblad
+By: Daniel Mentzer and Peter Strömblad
             
 ## A neural network in an embedded system
 
